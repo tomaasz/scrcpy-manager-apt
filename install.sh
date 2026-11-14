@@ -15,6 +15,10 @@ case "${ID:-}:${VERSION_CODENAME:-}" in
 esac
 [ "$(dpkg --print-architecture)" = amd64 ] || fail 'Wymagany komputer x64 (amd64). / An amd64 computer is required.'
 
+if [ -z "${DISPLAY:-}" ]; then
+ printf '%s\n' 'Uwaga: w tej sesji nie wykryto ekranu. Instalacja nie dodaje obsługi okien.' \
+  'Note: no display detected in this session. Installation does not add window support.'
+fi
 printf '%s\n' 'Instalowanie scrcpy Manager i potrzebnych składników… / Installing scrcpy Manager…'
 apt-get update
 apt-get install -y ca-certificates curl gnupg
@@ -39,4 +43,13 @@ SOURCES
 install -m 644 "$temporary/scrcpy-manager.sources" /etc/apt/sources.list.d/scrcpy-manager.sources
 apt-get update
 apt-get install -y scrcpy-manager
-printf '%s\n' 'Gotowe. Otwórz scrcpy Manager z menu aplikacji. / Done. Open scrcpy Manager from the applications menu.'
+if [ -n "${DISPLAY:-}" ]; then
+ printf '%s\n' 'Gotowe. Otwórz scrcpy Manager z menu aplikacji. / Done. Open scrcpy Manager from the applications menu.'
+else
+ printf '%s\n' 'Zainstalowano. Do otwarcia programu potrzebny jest dostęp do ekranu.' \
+  'Linux: uruchom z pulpitu. WSL: włącz WSLg albo użyj wersji Windows.' \
+  'Linux bez ekranu: potrzebny jest zdalny pulpit; sam terminal nie wyświetli okna.' \
+  'Installed. Open from a Linux desktop, enable WSLg, or use the Windows version.' \
+  'A headless Linux machine needs a remote desktop to display the window.' \
+  'Pomoc / Help: https://github.com/tomaasz/scrcpy-manager-apt/blob/main/GUI.md'
+fi

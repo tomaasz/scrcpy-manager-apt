@@ -2,6 +2,10 @@
 
 Ubuntu **24.04** / Debian **13**, komputery **x64 (amd64)**, pulpit X11 lub XWayland.
 
+**Do używania potrzebny jest dostęp do ekranu.** Na WSL bez WSLg albo Linuksie
+bez obsługi okien sama instalacja nie wystarczy. [Wybierz sposób uruchomienia](GUI.md).
+**A working display is required.** See [desktop, WSL and headless guidance](GUI.md).
+
 ## Instalacja / Installation
 
 Wklej do terminala / Paste into a terminal:
@@ -68,7 +72,7 @@ installer/instructions update. Do not disable signature or expiry checks.
 
 ## Zawartość / Contents
 
-- `scrcpy-manager` **0.7.16-1**: przetestowany Linux Preview, z dołączonym .NET.
+- `scrcpy-manager` **0.7.16-2**: Linux Preview, z dołączonym .NET i czytelną pomocą przy braku ekranu.
 - `scrcpy` **5.0.1-1sm1**: klient i zgodny serwer Android 5.0.1; prywatne SDL **3.4.18**.
 - FFmpeg i pozostałe biblioteki pochodzą z systemu. Nie dodajemy statycznego FFmpeg.
 - Licencje Managera i zależności: `/opt/scrcpy-manager/licenses/`,

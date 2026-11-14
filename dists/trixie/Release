@@ -4,10 +4,10 @@ Suite: trixie
 Codename: trixie
 Architectures: amd64
 Components: main
-Date: Sat, 14 Nov 2026 15:59:14 GMT
-Valid-Until: Mon, 14 Dec 2026 15:59:14 GMT
+Date: Sat, 14 Nov 2026 23:31:41 GMT
+Valid-Until: Mon, 14 Dec 2026 23:31:41 GMT
 Acquire-By-Hash: yes
 Description: scrcpy Manager Linux Preview packages
 SHA256:
- dd83780d205340582795fe29172fbd021ceb05a159e351932d5d0320bb3cd877 2275 main/binary-amd64/Packages
- 3a026758c58374630427a366fb7d1adeecb18bca1e7d49c153a2e2ff42b00881 1201 main/binary-amd64/Packages.gz
+ 5740c0ea062a0e1f03a0c913d62d156cda0e63a6929f0d3e2b5bf36ead96c79d 3297 main/binary-amd64/Packages
+ 3c35490d2b00d080d6f1b56a04d8a4c810ece7ca85dae882a97fb134b62a8fb8 1412 main/binary-amd64/Packages.gz

@@ -57,7 +57,7 @@ jobs:
           printf '%s' "$APT_SIGNING_KEY" | gpg --batch --import
           unset APT_SIGNING_KEY
           mkdir _site
-          cp -a pool sources admin README.md LICENSE install.sh SHA256SUMS .nojekyll _site/
+          cp -a pool sources admin README.md GUI.md LICENSE install.sh SHA256SUMS .nojekyll _site/
           python3 admin/build-apt.py --root _site --gpg-home "$GNUPGHOME" --key CFF184718B470F389319AABF6B5DD55898A9A341
           gpgv --keyring "$PWD/_site/archive-key.gpg" _site/dists/noble/InRelease
           gpgv --keyring "$PWD/_site/archive-key.gpg" _site/dists/trixie/InRelease

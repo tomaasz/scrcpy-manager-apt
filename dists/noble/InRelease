@@ -7,17 +7,17 @@ Suite: noble
 Codename: noble
 Architectures: amd64
 Components: main
-Date: Sat, 14 Nov 2026 15:59:14 GMT
-Valid-Until: Mon, 14 Dec 2026 15:59:14 GMT
+Date: Sat, 14 Nov 2026 23:31:41 GMT
+Valid-Until: Mon, 14 Dec 2026 23:31:41 GMT
 Acquire-By-Hash: yes
 Description: scrcpy Manager Linux Preview packages
 SHA256:
- 780e17379aafb2ba8adb16df0e824af3fa18ad650292b2b7b686a7b63eeed250 2261 main/binary-amd64/Packages
- 52da5aa7fec5587be118058a4ef8f1d8f57373ff217c0ca348618fdc398990ef 1201 main/binary-amd64/Packages.gz
+ b6a20910b79c9c70dfa66a45fcc2910ab36bee606cc65989832dc3ed2dd7b938 3281 main/binary-amd64/Packages
+ 77abec7a4d7bf83c175f638a1c6dafd980468f0ced1772d9bc90e084e2588a88 1409 main/binary-amd64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYIAB0WIQTP8YRxi0cPOJMZqr9rXdVYmKmjQQUCaviFUgAKCRBrXdVYmKmj
-QeJIAQDj0hckuVRcBNK7Zj9v2IlD5uJWkCjWfUvrinewBKcBtwD+KDLBRsZsJlrE
-MoLRPXTVzxmFqHB9WrVLa4Q+MDlRvQA=
-=fiyH
+iHUEARYIAB0WIQTP8YRxi0cPOJMZqr9rXdVYmKmjQQUCavjvXgAKCRBrXdVYmKmj
+QSGNAQC0i1IykKbvhYfDENgpZYFblH32knSLlYDXV7dqYwqP6QD+LufqPZwe/8fN
+mgH86vxzuE+4b8lPtoUiMpPMs4jrRQ4=
+=0Vlx
 -----END PGP SIGNATURE-----

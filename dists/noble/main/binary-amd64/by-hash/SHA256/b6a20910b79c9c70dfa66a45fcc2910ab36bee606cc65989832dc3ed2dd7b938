@@ -1,0 +1,59 @@
+Package: scrcpy-manager
+Architecture: amd64
+Version: 0.7.16-1
+Priority: optional
+Section: utils
+Maintainer: Tomasz Golaszewski <tomaasz@users.noreply.github.com>
+Installed-Size: 105104
+Depends: adb, scrcpy (>= 3.0), libc6 (>= 2.38), libgcc-s1, libstdc++6, libicu74, libssl3t64, libfontconfig1, libfreetype6, fonts-dejavu-core, libx11-6, libice6, libsm6, libxrandr2, libxcursor1, libxi6
+Filename: pool/noble/scrcpy-manager_0.7.16-1_noble_amd64.deb
+Size: 32950016
+MD5sum: 72fd17f4a8ec2deda2b0861fc0eb5cf5
+SHA1: 490c00b1a4dd4d2f2b418238f8e9d6a2081faef4
+SHA256: f65682cdb08c83509c7cde8039ed1169b164c83aca9ae66d3f0cfe6ac1dcc6c9
+SHA512: 37b66a53340890ac7e1803e80c44132eb21517cc0c70cda86db58fc5ad0831316b674569d463498a319591aee8d75e8dacdee7ec6f96a6436d970dbbf090ca99
+Homepage: https://tomaasz.github.io/scrcpy-manager-apt/
+Description: Android desktop companion (Linux Preview)
+ Connect Android over USB or Wi-Fi and run applications in desktop windows.
+ Includes the .NET runtime and upstream third-party notices.
+
+Package: scrcpy-manager
+Architecture: amd64
+Version: 0.7.16-2
+Priority: optional
+Section: utils
+Maintainer: Tomasz Golaszewski <tomaasz@users.noreply.github.com>
+Installed-Size: 105105
+Depends: adb, scrcpy (>= 3.0), x11-utils, libc6 (>= 2.38), libgcc-s1, libstdc++6, libicu74, libssl3t64, libfontconfig1, libfreetype6, fonts-dejavu-core, libx11-6, libice6, libsm6, libxrandr2, libxcursor1, libxi6
+Filename: pool/noble/scrcpy-manager_0.7.16-2_noble_amd64.deb
+Size: 32958288
+MD5sum: 5f7cc7bbfe8f4e8640c422b175ff7798
+SHA1: 738c119fef677cc67c5e1e40bdfd4e34390a0116
+SHA256: 317cb7665aff99a568a2003523bed6db401c71093a99328529ff4ea7d34b5277
+SHA512: 90f3b9567825cf54b0468ead60e47d5cace8e0852adf21022eec4db138771980b6daaf3a8bc9435c04c26d6d309d5d5d15bad13609dbbf5236f9d8ade36d19d3
+Homepage: https://tomaasz.github.io/scrcpy-manager-apt/
+Description: Android desktop companion (Linux Preview)
+ Connect Android over USB or Wi-Fi and run applications in desktop windows.
+ Includes the .NET runtime and upstream third-party notices.
+
+Package: scrcpy
+Architecture: amd64
+Version: 5.0.1-1sm1
+Priority: optional
+Section: utils
+Maintainer: Tomasz Golaszewski <tomaasz@users.noreply.github.com>
+Depends: libavcodec60 (>= 7:6.1), libavdevice60 (>= 7:6.0), libavformat60 (>= 7:6.0), libavutil58 (>= 7:6.0), libc6 (>= 2.38), libswresample4 (>= 7:6.0), libusb-1.0-0 (>= 2:1.0.16), adb, libasound2t64, libpulse0, libudev1, libdbus-1-3, libx11-6, libxext6, libxrandr2, libxcursor1, libxi6, libxfixes3, libxss1, libxtst6, libgl1
+Breaks: scrcpy-server (<< 5.0.1-1sm1)
+Replaces: scrcpy-server (<< 5.0.1-1sm1)
+Filename: pool/noble/scrcpy_5.0.1-1sm1_amd64.deb
+Size: 2045668
+MD5sum: 577d2ea5f4fbdba174aafdad8d1cd487
+SHA1: a00e16b9f6e8813ae3465399d5d5a657d84f8fcb
+SHA256: c0f29c7f0ad4e76f990841535135a669a3e514618d2d9ba465f2bb4c55e2ace0
+SHA512: 46c6fccc3efd5dd89c1bf99544eb009d76f0cbb6e3726bed444f5df26ad9bf2a963a0c69c65766078408fdbba5a50fa87f32e2fc20999f7cfdab3b093bb9f9bb
+Homepage: https://github.com/Genymobile/scrcpy
+Description: Android screen mirroring with SDL3 for scrcpy Manager
+ Upstream scrcpy 5.0.1 with a matching Android server and private SDL3.
+ Built for noble using the distribution's dynamic FFmpeg libraries.
+ Sources and original notices accompany the scrcpy Manager APT repository.
+

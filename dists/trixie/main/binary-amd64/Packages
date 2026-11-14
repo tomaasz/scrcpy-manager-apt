@@ -17,6 +17,25 @@ Description: Android desktop companion (Linux Preview)
  Connect Android over USB or Wi-Fi and run applications in desktop windows.
  Includes the .NET runtime and upstream third-party notices.
 
+Package: scrcpy-manager
+Architecture: amd64
+Version: 0.7.16-2
+Priority: optional
+Section: utils
+Maintainer: Tomasz Golaszewski <tomaasz@users.noreply.github.com>
+Installed-Size: 105105
+Depends: adb, scrcpy (>= 3.0), x11-utils, libc6 (>= 2.38), libgcc-s1, libstdc++6, libicu76, libssl3t64, libfontconfig1, libfreetype6, fonts-dejavu-core, libx11-6, libice6, libsm6, libxrandr2, libxcursor1, libxi6
+Filename: pool/trixie/scrcpy-manager_0.7.16-2_trixie_amd64.deb
+Size: 32949572
+MD5sum: 1da8634548b8efc33b3ce3f4e6a30532
+SHA1: e5d4f1cf2b98ed2a449039dac41c0f2ec3b160db
+SHA256: 440fc8c6fb95e54c765cfdd50413875f3c39b67f2ef8c1720aded47c06a017b2
+SHA512: b518b2788f45f3fb1e081d528fdc15a253790c1310c8138f08bec7b1bd054a22ef6bb1b2591a093b2c99e7bde3c3847da99549acc2fb09dca123f28f5585204a
+Homepage: https://tomaasz.github.io/scrcpy-manager-apt/
+Description: Android desktop companion (Linux Preview)
+ Connect Android over USB or Wi-Fi and run applications in desktop windows.
+ Includes the .NET runtime and upstream third-party notices.
+
 Package: scrcpy
 Architecture: amd64
 Version: 5.0.1-1sm1
