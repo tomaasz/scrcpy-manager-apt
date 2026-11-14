@@ -1,0 +1,7 @@
+ARG BASE=ubuntu:24.04
+FROM ${BASE}
+ENV DEBIAN_FRONTEND=noninteractive
+RUN apt-get update && apt-get install -y --no-install-recommends build-essential cmake meson ninja-build pkg-config dpkg-dev python3 ca-certificates xz-utils libavcodec-dev libavformat-dev libavutil-dev libswresample-dev libavdevice-dev libusb-1.0-0-dev libdrm-dev libva-dev libx11-dev libxext-dev libxrandr-dev libxcursor-dev libxi-dev libxfixes-dev libxss-dev libasound2-dev libpulse-dev libudev-dev libgl-dev libegl-dev libdbus-1-dev && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y --no-install-recommends libxtst-dev && rm -rf /var/lib/apt/lists/*
+COPY build-scrcpy.sh /build-scrcpy.sh
+ENTRYPOINT ["bash", "/build-scrcpy.sh"]

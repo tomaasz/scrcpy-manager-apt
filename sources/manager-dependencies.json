@@ -1,0 +1,417 @@
+{
+  "schemaVersion": 1,
+  "packages": [
+    {
+      "package": "Avalonia.Angle.Windows.Natives",
+      "version": "2.1.27548.20260419",
+      "sha256": "76d67901097e9173d155efc4c2b7d2c8e3122f2c2e0415028eb0c88478a386f9",
+      "files": [
+        {
+          "path": "Avalonia.Angle.Windows.Natives/2.1.27548.20260419/LICENSE",
+          "sha256": "54aff7276217df9f6b5181613999d208c9e40d2b1d51bf55217837e6871a4a63",
+          "source": "https://api.nuget.org/v3-flatcontainer/avalonia.angle.windows.natives/2.1.27548.20260419/avalonia.angle.windows.natives.2.1.27548.20260419.nupkg"
+        }
+      ]
+    },
+    {
+      "package": "Avalonia.BuildServices",
+      "version": "11.3.2",
+      "sha256": "eb0c74ead8d229640e957d9ccdda7a5a1d27bb055aa71e6a7ffb3c423e707b8d",
+      "files": [
+        {
+          "path": "Avalonia.BuildServices/11.3.2/upstream/LICENSE",
+          "sha256": "94162c40c663bd96ec1b870e6aba6ef0a43f44c9eb500807e7965e7078f6dc47",
+          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia.BuildServices/777f975b0a0cecf0311273711d56697212c558c0/LICENSE"
+        }
+      ]
+    },
+    {
+      "package": "Avalonia.Desktop",
+      "version": "12.1.6",
+      "sha256": "01547a36484ebcd67cc68b9f83d23e1cf1e5dd0246132f6169ccc6cdfb45e7b7",
+      "files": [
+        {
+          "path": "Avalonia.Desktop/12.1.6/upstream/licence.md",
+          "sha256": "213814d306090074d234d760239ff0f67eb9b8d20eefb4d5631bb39dbe0b769b",
+          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/cf8e564674700348947e93ab19105f27afe859a9/licence.md"
+        },
+        {
+          "path": "Avalonia.Desktop/12.1.6/upstream/NOTICE.md",
+          "sha256": "dd6f80852d16320c865a2e403ffd1a8b07a0e34c5b37122c0bc2343639ff68e6",
+          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/cf8e564674700348947e93ab19105f27afe859a9/NOTICE.md"
+        }
+      ]
+    },
+    {
+      "package": "Avalonia.FreeDesktop.AtSpi",
+      "version": "12.1.6",
+      "sha256": "660c5603f16f5037aceddfba3eb07c9cf70d8cad49323f6d8cc319052b739eec",
+      "files": [
+        {
+          "path": "Avalonia.FreeDesktop.AtSpi/12.1.6/upstream/licence.md",
+          "sha256": "213814d306090074d234d760239ff0f67eb9b8d20eefb4d5631bb39dbe0b769b",
+          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/cf8e564674700348947e93ab19105f27afe859a9/licence.md"
+        },
+        {
+          "path": "Avalonia.FreeDesktop.AtSpi/12.1.6/upstream/NOTICE.md",
+          "sha256": "dd6f80852d16320c865a2e403ffd1a8b07a0e34c5b37122c0bc2343639ff68e6",
+          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/cf8e564674700348947e93ab19105f27afe859a9/NOTICE.md"
+        }
+      ]
+    },
+    {
+      "package": "Avalonia.FreeDesktop",
+      "version": "12.1.6",
+      "sha256": "f254c3076e5176da0e4708dd114331e0558bee729f347fbae4b261db040432d6",
+      "files": [
+        {
+          "path": "Avalonia.FreeDesktop/12.1.6/upstream/licence.md",
+          "sha256": "213814d306090074d234d760239ff0f67eb9b8d20eefb4d5631bb39dbe0b769b",
+          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/cf8e564674700348947e93ab19105f27afe859a9/licence.md"
+        },
+        {
+          "path": "Avalonia.FreeDesktop/12.1.6/upstream/NOTICE.md",
+          "sha256": "dd6f80852d16320c865a2e403ffd1a8b07a0e34c5b37122c0bc2343639ff68e6",
+          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/cf8e564674700348947e93ab19105f27afe859a9/NOTICE.md"
+        }
+      ]
+    },
+    {
+      "package": "Avalonia.HarfBuzz",
+      "version": "12.1.6",
+      "sha256": "0a14d3ad829dd9a705c3cf906101cbaa4d94a9fc26711959f7b0bf538a7556d2",
+      "files": [
+        {
+          "path": "Avalonia.HarfBuzz/12.1.6/upstream/licence.md",
+          "sha256": "213814d306090074d234d760239ff0f67eb9b8d20eefb4d5631bb39dbe0b769b",
+          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/cf8e564674700348947e93ab19105f27afe859a9/licence.md"
+        },
+        {
+          "path": "Avalonia.HarfBuzz/12.1.6/upstream/NOTICE.md",
+          "sha256": "dd6f80852d16320c865a2e403ffd1a8b07a0e34c5b37122c0bc2343639ff68e6",
+          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/cf8e564674700348947e93ab19105f27afe859a9/NOTICE.md"
+        }
+      ]
+    },
+    {
+      "package": "Avalonia.Native",
+      "version": "12.1.6",
+      "sha256": "080a0cb7555967509c51a946728a48b42334ab75af05898bea93dab3f0dca5fc",
+      "files": [
+        {
+          "path": "Avalonia.Native/12.1.6/upstream/licence.md",
+          "sha256": "213814d306090074d234d760239ff0f67eb9b8d20eefb4d5631bb39dbe0b769b",
+          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/cf8e564674700348947e93ab19105f27afe859a9/licence.md"
+        },
+        {
+          "path": "Avalonia.Native/12.1.6/upstream/NOTICE.md",
+          "sha256": "dd6f80852d16320c865a2e403ffd1a8b07a0e34c5b37122c0bc2343639ff68e6",
+          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/cf8e564674700348947e93ab19105f27afe859a9/NOTICE.md"
+        }
+      ]
+    },
+    {
+      "package": "Avalonia.Remote.Protocol",
+      "version": "12.1.6",
+      "sha256": "366925200bbc15d42fd151cb8b5a8f6869f143260c8cb02514225dd92ada86fb",
+      "files": [
+        {
+          "path": "Avalonia.Remote.Protocol/12.1.6/upstream/licence.md",
+          "sha256": "213814d306090074d234d760239ff0f67eb9b8d20eefb4d5631bb39dbe0b769b",
+          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/cf8e564674700348947e93ab19105f27afe859a9/licence.md"
+        },
+        {
+          "path": "Avalonia.Remote.Protocol/12.1.6/upstream/NOTICE.md",
+          "sha256": "dd6f80852d16320c865a2e403ffd1a8b07a0e34c5b37122c0bc2343639ff68e6",
+          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/cf8e564674700348947e93ab19105f27afe859a9/NOTICE.md"
+        }
+      ]
+    },
+    {
+      "package": "Avalonia.Skia",
+      "version": "12.1.6",
+      "sha256": "5d767f1c7bc1603ec03fde2620fc1ac478f7fd5dc3e599cdcd1be2f6f7f5c68c",
+      "files": [
+        {
+          "path": "Avalonia.Skia/12.1.6/upstream/licence.md",
+          "sha256": "213814d306090074d234d760239ff0f67eb9b8d20eefb4d5631bb39dbe0b769b",
+          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/cf8e564674700348947e93ab19105f27afe859a9/licence.md"
+        },
+        {
+          "path": "Avalonia.Skia/12.1.6/upstream/NOTICE.md",
+          "sha256": "dd6f80852d16320c865a2e403ffd1a8b07a0e34c5b37122c0bc2343639ff68e6",
+          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/cf8e564674700348947e93ab19105f27afe859a9/NOTICE.md"
+        }
+      ]
+    },
+    {
+      "package": "Avalonia.Themes.Fluent",
+      "version": "12.1.6",
+      "sha256": "af6c7a862a16ee35aac0922deaa939f65436fc2433dacfe460e975ebc646047c",
+      "files": [
+        {
+          "path": "Avalonia.Themes.Fluent/12.1.6/upstream/licence.md",
+          "sha256": "213814d306090074d234d760239ff0f67eb9b8d20eefb4d5631bb39dbe0b769b",
+          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/cf8e564674700348947e93ab19105f27afe859a9/licence.md"
+        },
+        {
+          "path": "Avalonia.Themes.Fluent/12.1.6/upstream/NOTICE.md",
+          "sha256": "dd6f80852d16320c865a2e403ffd1a8b07a0e34c5b37122c0bc2343639ff68e6",
+          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/cf8e564674700348947e93ab19105f27afe859a9/NOTICE.md"
+        }
+      ]
+    },
+    {
+      "package": "Avalonia.Win32",
+      "version": "12.1.6",
+      "sha256": "f7884291156695d01e3fdedf6ed385bbc02aa52c83d71b0c68905df18165cdae",
+      "files": [
+        {
+          "path": "Avalonia.Win32/12.1.6/upstream/licence.md",
+          "sha256": "213814d306090074d234d760239ff0f67eb9b8d20eefb4d5631bb39dbe0b769b",
+          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/cf8e564674700348947e93ab19105f27afe859a9/licence.md"
+        },
+        {
+          "path": "Avalonia.Win32/12.1.6/upstream/NOTICE.md",
+          "sha256": "dd6f80852d16320c865a2e403ffd1a8b07a0e34c5b37122c0bc2343639ff68e6",
+          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/cf8e564674700348947e93ab19105f27afe859a9/NOTICE.md"
+        }
+      ]
+    },
+    {
+      "package": "Avalonia.X11",
+      "version": "12.1.6",
+      "sha256": "7c72bcea42345d7b7122e35a6cd41b89ab68d1c0eb0f7e46fb3719c8545f5c93",
+      "files": [
+        {
+          "path": "Avalonia.X11/12.1.6/upstream/licence.md",
+          "sha256": "213814d306090074d234d760239ff0f67eb9b8d20eefb4d5631bb39dbe0b769b",
+          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/cf8e564674700348947e93ab19105f27afe859a9/licence.md"
+        },
+        {
+          "path": "Avalonia.X11/12.1.6/upstream/NOTICE.md",
+          "sha256": "dd6f80852d16320c865a2e403ffd1a8b07a0e34c5b37122c0bc2343639ff68e6",
+          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/cf8e564674700348947e93ab19105f27afe859a9/NOTICE.md"
+        }
+      ]
+    },
+    {
+      "package": "Avalonia",
+      "version": "12.1.6",
+      "sha256": "3fc15f809786ee99791620c5d3c25452487cb70d5cd99393f853e4d241361255",
+      "files": [
+        {
+          "path": "Avalonia/12.1.6/upstream/licence.md",
+          "sha256": "213814d306090074d234d760239ff0f67eb9b8d20eefb4d5631bb39dbe0b769b",
+          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/cf8e564674700348947e93ab19105f27afe859a9/licence.md"
+        },
+        {
+          "path": "Avalonia/12.1.6/upstream/NOTICE.md",
+          "sha256": "dd6f80852d16320c865a2e403ffd1a8b07a0e34c5b37122c0bc2343639ff68e6",
+          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/cf8e564674700348947e93ab19105f27afe859a9/NOTICE.md"
+        }
+      ]
+    },
+    {
+      "package": "HarfBuzzSharp.NativeAssets.Linux",
+      "version": "8.3.1.3",
+      "sha256": "7de58e9daffc9dcbe6aeaec2c670dccefd5f69c576a68655e51f8ec82b687295",
+      "files": [
+        {
+          "path": "HarfBuzzSharp.NativeAssets.Linux/8.3.1.3/THIRD-PARTY-NOTICES.txt",
+          "sha256": "21504c46c4c58aa64c1055bd2dcbc5f9a136b4b8c412ed3cc6740e22c5b127f5",
+          "source": "https://api.nuget.org/v3-flatcontainer/harfbuzzsharp.nativeassets.linux/8.3.1.3/harfbuzzsharp.nativeassets.linux.8.3.1.3.nupkg"
+        },
+        {
+          "path": "HarfBuzzSharp.NativeAssets.Linux/8.3.1.3/LICENSE.txt",
+          "sha256": "89101e35a8c66fd4d6dffc1763259161d35cb564c169714ec227a768c89f2938",
+          "source": "https://api.nuget.org/v3-flatcontainer/harfbuzzsharp.nativeassets.linux/8.3.1.3/harfbuzzsharp.nativeassets.linux.8.3.1.3.nupkg"
+        }
+      ]
+    },
+    {
+      "package": "HarfBuzzSharp.NativeAssets.WebAssembly",
+      "version": "8.3.1.3",
+      "sha256": "6ab06223cd9f5cf8c0a9fb6a9c6ed6737051cd9ebebca77b6f9f2f412589564d",
+      "files": [
+        {
+          "path": "HarfBuzzSharp.NativeAssets.WebAssembly/8.3.1.3/THIRD-PARTY-NOTICES.txt",
+          "sha256": "21504c46c4c58aa64c1055bd2dcbc5f9a136b4b8c412ed3cc6740e22c5b127f5",
+          "source": "https://api.nuget.org/v3-flatcontainer/harfbuzzsharp.nativeassets.webassembly/8.3.1.3/harfbuzzsharp.nativeassets.webassembly.8.3.1.3.nupkg"
+        },
+        {
+          "path": "HarfBuzzSharp.NativeAssets.WebAssembly/8.3.1.3/LICENSE.txt",
+          "sha256": "89101e35a8c66fd4d6dffc1763259161d35cb564c169714ec227a768c89f2938",
+          "source": "https://api.nuget.org/v3-flatcontainer/harfbuzzsharp.nativeassets.webassembly/8.3.1.3/harfbuzzsharp.nativeassets.webassembly.8.3.1.3.nupkg"
+        }
+      ]
+    },
+    {
+      "package": "HarfBuzzSharp.NativeAssets.Win32",
+      "version": "8.3.1.3",
+      "sha256": "58d51098b595152c01293f71ed47614b3f53d8503bc226efc23b8f7b0ff7c943",
+      "files": [
+        {
+          "path": "HarfBuzzSharp.NativeAssets.Win32/8.3.1.3/THIRD-PARTY-NOTICES.txt",
+          "sha256": "21504c46c4c58aa64c1055bd2dcbc5f9a136b4b8c412ed3cc6740e22c5b127f5",
+          "source": "https://api.nuget.org/v3-flatcontainer/harfbuzzsharp.nativeassets.win32/8.3.1.3/harfbuzzsharp.nativeassets.win32.8.3.1.3.nupkg"
+        },
+        {
+          "path": "HarfBuzzSharp.NativeAssets.Win32/8.3.1.3/LICENSE.txt",
+          "sha256": "89101e35a8c66fd4d6dffc1763259161d35cb564c169714ec227a768c89f2938",
+          "source": "https://api.nuget.org/v3-flatcontainer/harfbuzzsharp.nativeassets.win32/8.3.1.3/harfbuzzsharp.nativeassets.win32.8.3.1.3.nupkg"
+        }
+      ]
+    },
+    {
+      "package": "HarfBuzzSharp.NativeAssets.macOS",
+      "version": "8.3.1.3",
+      "sha256": "e962ac27f8c5f691e7696710bda7b3739015e9f96edd7b0ec50b3b8b8046609b",
+      "files": [
+        {
+          "path": "HarfBuzzSharp.NativeAssets.macOS/8.3.1.3/THIRD-PARTY-NOTICES.txt",
+          "sha256": "21504c46c4c58aa64c1055bd2dcbc5f9a136b4b8c412ed3cc6740e22c5b127f5",
+          "source": "https://api.nuget.org/v3-flatcontainer/harfbuzzsharp.nativeassets.macos/8.3.1.3/harfbuzzsharp.nativeassets.macos.8.3.1.3.nupkg"
+        },
+        {
+          "path": "HarfBuzzSharp.NativeAssets.macOS/8.3.1.3/LICENSE.txt",
+          "sha256": "89101e35a8c66fd4d6dffc1763259161d35cb564c169714ec227a768c89f2938",
+          "source": "https://api.nuget.org/v3-flatcontainer/harfbuzzsharp.nativeassets.macos/8.3.1.3/harfbuzzsharp.nativeassets.macos.8.3.1.3.nupkg"
+        }
+      ]
+    },
+    {
+      "package": "HarfBuzzSharp",
+      "version": "8.3.1.3",
+      "sha256": "ffe644863a4eb3c078b4c3f0def0f2b90a861991c9116bf2dd668a31a0f09ab5",
+      "files": [
+        {
+          "path": "HarfBuzzSharp/8.3.1.3/LICENSE.txt",
+          "sha256": "89101e35a8c66fd4d6dffc1763259161d35cb564c169714ec227a768c89f2938",
+          "source": "https://api.nuget.org/v3-flatcontainer/harfbuzzsharp/8.3.1.3/harfbuzzsharp.8.3.1.3.nupkg"
+        }
+      ]
+    },
+    {
+      "package": "MicroCom.Runtime",
+      "version": "0.11.6",
+      "sha256": "453af6d34477b19bb2c62d17436e68c76a75915b7947509b1ff601b36d7e78d8",
+      "files": [
+        {
+          "path": "MicroCom.Runtime/0.11.6/upstream/LICENSE",
+          "sha256": "6ee769c9ac4dac9abb16b98b1341e9528ff9f4ab685481410d3376d14148f3a9",
+          "source": "https://raw.githubusercontent.com/kekekeks/MicroCom/76785efcafd91b5902fd19dd11145f6dd655b7b4/LICENSE"
+        }
+      ]
+    },
+    {
+      "package": "Microsoft.NETCore.App.Runtime.linux-x64",
+      "version": "10.0.15",
+      "sha256": "4f48051ab89575999f426340665f1fa0f7545829b331902a9d993d513fe4a338",
+      "files": [
+        {
+          "path": "Microsoft.NETCore.App.Runtime.linux-x64/10.0.15/THIRD-PARTY-NOTICES.TXT",
+          "sha256": "66f1d4e44973185519bb4aa8a9718eb22fc7af2cc532e3ae9cfc4c127ee7fc54",
+          "source": "https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.linux-x64/10.0.15/microsoft.netcore.app.runtime.linux-x64.10.0.15.nupkg"
+        },
+        {
+          "path": "Microsoft.NETCore.App.Runtime.linux-x64/10.0.15/LICENSE.TXT",
+          "sha256": "cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310",
+          "source": "https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.linux-x64/10.0.15/microsoft.netcore.app.runtime.linux-x64.10.0.15.nupkg"
+        }
+      ]
+    },
+    {
+      "package": "SkiaSharp.NativeAssets.Linux",
+      "version": "3.119.4",
+      "sha256": "fae0554059b1107ef7888e46c20bdfb548401ef7a7a6f7391ad4fadc7432d50a",
+      "files": [
+        {
+          "path": "SkiaSharp.NativeAssets.Linux/3.119.4/THIRD-PARTY-NOTICES.txt",
+          "sha256": "21504c46c4c58aa64c1055bd2dcbc5f9a136b4b8c412ed3cc6740e22c5b127f5",
+          "source": "https://api.nuget.org/v3-flatcontainer/skiasharp.nativeassets.linux/3.119.4/skiasharp.nativeassets.linux.3.119.4.nupkg"
+        },
+        {
+          "path": "SkiaSharp.NativeAssets.Linux/3.119.4/LICENSE.txt",
+          "sha256": "89101e35a8c66fd4d6dffc1763259161d35cb564c169714ec227a768c89f2938",
+          "source": "https://api.nuget.org/v3-flatcontainer/skiasharp.nativeassets.linux/3.119.4/skiasharp.nativeassets.linux.3.119.4.nupkg"
+        }
+      ]
+    },
+    {
+      "package": "SkiaSharp.NativeAssets.WebAssembly",
+      "version": "3.119.4",
+      "sha256": "c4b7ec581b05169bf9420efd188322fb908ce980df720fffa32c0d941e58dc9d",
+      "files": [
+        {
+          "path": "SkiaSharp.NativeAssets.WebAssembly/3.119.4/THIRD-PARTY-NOTICES.txt",
+          "sha256": "21504c46c4c58aa64c1055bd2dcbc5f9a136b4b8c412ed3cc6740e22c5b127f5",
+          "source": "https://api.nuget.org/v3-flatcontainer/skiasharp.nativeassets.webassembly/3.119.4/skiasharp.nativeassets.webassembly.3.119.4.nupkg"
+        },
+        {
+          "path": "SkiaSharp.NativeAssets.WebAssembly/3.119.4/LICENSE.txt",
+          "sha256": "89101e35a8c66fd4d6dffc1763259161d35cb564c169714ec227a768c89f2938",
+          "source": "https://api.nuget.org/v3-flatcontainer/skiasharp.nativeassets.webassembly/3.119.4/skiasharp.nativeassets.webassembly.3.119.4.nupkg"
+        }
+      ]
+    },
+    {
+      "package": "SkiaSharp.NativeAssets.Win32",
+      "version": "3.119.4",
+      "sha256": "5a5698b1b4e1fdc9ffe9868df6874db5fa69f21a4de76ba71a01a542e9b43391",
+      "files": [
+        {
+          "path": "SkiaSharp.NativeAssets.Win32/3.119.4/THIRD-PARTY-NOTICES.txt",
+          "sha256": "21504c46c4c58aa64c1055bd2dcbc5f9a136b4b8c412ed3cc6740e22c5b127f5",
+          "source": "https://api.nuget.org/v3-flatcontainer/skiasharp.nativeassets.win32/3.119.4/skiasharp.nativeassets.win32.3.119.4.nupkg"
+        },
+        {
+          "path": "SkiaSharp.NativeAssets.Win32/3.119.4/LICENSE.txt",
+          "sha256": "89101e35a8c66fd4d6dffc1763259161d35cb564c169714ec227a768c89f2938",
+          "source": "https://api.nuget.org/v3-flatcontainer/skiasharp.nativeassets.win32/3.119.4/skiasharp.nativeassets.win32.3.119.4.nupkg"
+        }
+      ]
+    },
+    {
+      "package": "SkiaSharp.NativeAssets.macOS",
+      "version": "3.119.4",
+      "sha256": "f7f2f539ce5bba337aa4a8d6eac25caf58cbdd12edf3f32ddcc98294e730cf2c",
+      "files": [
+        {
+          "path": "SkiaSharp.NativeAssets.macOS/3.119.4/THIRD-PARTY-NOTICES.txt",
+          "sha256": "21504c46c4c58aa64c1055bd2dcbc5f9a136b4b8c412ed3cc6740e22c5b127f5",
+          "source": "https://api.nuget.org/v3-flatcontainer/skiasharp.nativeassets.macos/3.119.4/skiasharp.nativeassets.macos.3.119.4.nupkg"
+        },
+        {
+          "path": "SkiaSharp.NativeAssets.macOS/3.119.4/LICENSE.txt",
+          "sha256": "89101e35a8c66fd4d6dffc1763259161d35cb564c169714ec227a768c89f2938",
+          "source": "https://api.nuget.org/v3-flatcontainer/skiasharp.nativeassets.macos/3.119.4/skiasharp.nativeassets.macos.3.119.4.nupkg"
+        }
+      ]
+    },
+    {
+      "package": "SkiaSharp",
+      "version": "3.119.4",
+      "sha256": "e32a449d31945c0b9d169eb5bc676e1e3f589aab69888e49d703fdc1c384c176",
+      "files": [
+        {
+          "path": "SkiaSharp/3.119.4/LICENSE.txt",
+          "sha256": "89101e35a8c66fd4d6dffc1763259161d35cb564c169714ec227a768c89f2938",
+          "source": "https://api.nuget.org/v3-flatcontainer/skiasharp/3.119.4/skiasharp.3.119.4.nupkg"
+        }
+      ]
+    },
+    {
+      "package": "Tmds.DBus.Protocol",
+      "version": "0.94.1",
+      "sha256": "4f71d06ac40e725ffbcf1b79853dd93218695a84f23d36fafc85f477a4c9580f",
+      "files": [
+        {
+          "path": "Tmds.DBus.Protocol/0.94.1/upstream/COPYING",
+          "sha256": "aca3b49277abcc7886ccb2f115603a9f5b15fc3f96019a10c00f2974098b210c",
+          "source": "https://raw.githubusercontent.com/tmds/Tmds.DBus/b4a7fed0b878f74cb54f7cca84d2889af4e596ba/COPYING"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+Origin: scrcpy-manager
+Label: scrcpy Manager
+Suite: noble
+Codename: noble
+Architectures: amd64
+Components: main
+Date: Sat, 14 Nov 2026 15:59:14 GMT
+Valid-Until: Mon, 14 Dec 2026 15:59:14 GMT
+Acquire-By-Hash: yes
+Description: scrcpy Manager Linux Preview packages
+SHA256:
+ 780e17379aafb2ba8adb16df0e824af3fa18ad650292b2b7b686a7b63eeed250 2261 main/binary-amd64/Packages
+ 52da5aa7fec5587be118058a4ef8f1d8f57373ff217c0ca348618fdc398990ef 1201 main/binary-amd64/Packages.gz
