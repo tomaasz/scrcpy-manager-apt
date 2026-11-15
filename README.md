@@ -27,6 +27,12 @@ You may need to reconnect the USB cable after installing device rules.
 
 ## Nowości 0.7.18 / Changes
 
+Poprawka pakietu **0.7.18-2**: zajęty port panelu Web wyświetla krótką instrukcję
+zamiast stosu błędów. Po aktualizacji uruchom panel ponownie.
+
+Package **0.7.18-2**: a busy Web port shows a short recovery message instead of a
+stack trace. Restart the panel after upgrading.
+
 Linux i Web: ikony z telefonu, kopiowanie zapisanych aplikacji i zmiana kolejności.
 Linux: obrót, bufor obrazu oraz kodek i jakość dźwięku. Web: dźwięk ustawiany osobno
 dla aplikacji. Pobranie ikony wymaga gotowego telefonu i kliknięcia „Ikona z telefonu”.
@@ -82,7 +88,7 @@ installer/instructions update. Do not disable signature or expiry checks.
 
 ## Zawartość / Contents
 
-- `scrcpy-manager` **0.7.18-1**: Linux + Web Preview, z dołączonym .NET i panelem bez pulpitu.
+- `scrcpy-manager` **0.7.18-2**: Linux + Web Preview, z dołączonym .NET i panelem bez pulpitu.
 - `scrcpy` **5.0.1-1sm1**: klient i zgodny serwer Android 5.0.1; prywatne SDL **3.4.18**.
 - FFmpeg i pozostałe biblioteki pochodzą z systemu. Nie dodajemy statycznego FFmpeg.
 - Licencje Managera i zależności: `/opt/scrcpy-manager/licenses/`,

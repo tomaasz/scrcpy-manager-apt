@@ -2,6 +2,23 @@
   "schemaVersion": 1,
   "packages": [
     {
+      "package": "Avalonia",
+      "version": "12.1.6",
+      "sha256": "3fc15f809786ee99791620c5d3c25452487cb70d5cd99393f853e4d241361255",
+      "files": [
+        {
+          "path": "Avalonia/12.1.6/upstream/licence.md",
+          "sha256": "213814d306090074d234d760239ff0f67eb9b8d20eefb4d5631bb39dbe0b769b",
+          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/cf8e564674700348947e93ab19105f27afe859a9/licence.md"
+        },
+        {
+          "path": "Avalonia/12.1.6/upstream/NOTICE.md",
+          "sha256": "dd6f80852d16320c865a2e403ffd1a8b07a0e34c5b37122c0bc2343639ff68e6",
+          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/cf8e564674700348947e93ab19105f27afe859a9/NOTICE.md"
+        }
+      ]
+    },
+    {
       "package": "Avalonia.Angle.Windows.Natives",
       "version": "2.1.27548.20260419",
       "sha256": "76d67901097e9173d155efc4c2b7d2c8e3122f2c2e0415028eb0c88478a386f9",
@@ -43,23 +60,6 @@
       ]
     },
     {
-      "package": "Avalonia.FreeDesktop.AtSpi",
-      "version": "12.1.6",
-      "sha256": "660c5603f16f5037aceddfba3eb07c9cf70d8cad49323f6d8cc319052b739eec",
-      "files": [
-        {
-          "path": "Avalonia.FreeDesktop.AtSpi/12.1.6/upstream/licence.md",
-          "sha256": "213814d306090074d234d760239ff0f67eb9b8d20eefb4d5631bb39dbe0b769b",
-          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/cf8e564674700348947e93ab19105f27afe859a9/licence.md"
-        },
-        {
-          "path": "Avalonia.FreeDesktop.AtSpi/12.1.6/upstream/NOTICE.md",
-          "sha256": "dd6f80852d16320c865a2e403ffd1a8b07a0e34c5b37122c0bc2343639ff68e6",
-          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/cf8e564674700348947e93ab19105f27afe859a9/NOTICE.md"
-        }
-      ]
-    },
-    {
       "package": "Avalonia.FreeDesktop",
       "version": "12.1.6",
       "sha256": "f254c3076e5176da0e4708dd114331e0558bee729f347fbae4b261db040432d6",
@@ -71,6 +71,23 @@
         },
         {
           "path": "Avalonia.FreeDesktop/12.1.6/upstream/NOTICE.md",
+          "sha256": "dd6f80852d16320c865a2e403ffd1a8b07a0e34c5b37122c0bc2343639ff68e6",
+          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/cf8e564674700348947e93ab19105f27afe859a9/NOTICE.md"
+        }
+      ]
+    },
+    {
+      "package": "Avalonia.FreeDesktop.AtSpi",
+      "version": "12.1.6",
+      "sha256": "660c5603f16f5037aceddfba3eb07c9cf70d8cad49323f6d8cc319052b739eec",
+      "files": [
+        {
+          "path": "Avalonia.FreeDesktop.AtSpi/12.1.6/upstream/licence.md",
+          "sha256": "213814d306090074d234d760239ff0f67eb9b8d20eefb4d5631bb39dbe0b769b",
+          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/cf8e564674700348947e93ab19105f27afe859a9/licence.md"
+        },
+        {
+          "path": "Avalonia.FreeDesktop.AtSpi/12.1.6/upstream/NOTICE.md",
           "sha256": "dd6f80852d16320c865a2e403ffd1a8b07a0e34c5b37122c0bc2343639ff68e6",
           "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/cf8e564674700348947e93ab19105f27afe859a9/NOTICE.md"
         }
@@ -196,19 +213,14 @@
       ]
     },
     {
-      "package": "Avalonia",
-      "version": "12.1.6",
-      "sha256": "3fc15f809786ee99791620c5d3c25452487cb70d5cd99393f853e4d241361255",
+      "package": "HarfBuzzSharp",
+      "version": "8.3.1.3",
+      "sha256": "ffe644863a4eb3c078b4c3f0def0f2b90a861991c9116bf2dd668a31a0f09ab5",
       "files": [
         {
-          "path": "Avalonia/12.1.6/upstream/licence.md",
-          "sha256": "213814d306090074d234d760239ff0f67eb9b8d20eefb4d5631bb39dbe0b769b",
-          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/cf8e564674700348947e93ab19105f27afe859a9/licence.md"
-        },
-        {
-          "path": "Avalonia/12.1.6/upstream/NOTICE.md",
-          "sha256": "dd6f80852d16320c865a2e403ffd1a8b07a0e34c5b37122c0bc2343639ff68e6",
-          "source": "https://raw.githubusercontent.com/AvaloniaUI/Avalonia/cf8e564674700348947e93ab19105f27afe859a9/NOTICE.md"
+          "path": "HarfBuzzSharp/8.3.1.3/LICENSE.txt",
+          "sha256": "89101e35a8c66fd4d6dffc1763259161d35cb564c169714ec227a768c89f2938",
+          "source": "https://api.nuget.org/v3-flatcontainer/harfbuzzsharp/8.3.1.3/harfbuzzsharp.8.3.1.3.nupkg"
         }
       ]
     },
@@ -281,18 +293,6 @@
       ]
     },
     {
-      "package": "HarfBuzzSharp",
-      "version": "8.3.1.3",
-      "sha256": "ffe644863a4eb3c078b4c3f0def0f2b90a861991c9116bf2dd668a31a0f09ab5",
-      "files": [
-        {
-          "path": "HarfBuzzSharp/8.3.1.3/LICENSE.txt",
-          "sha256": "89101e35a8c66fd4d6dffc1763259161d35cb564c169714ec227a768c89f2938",
-          "source": "https://api.nuget.org/v3-flatcontainer/harfbuzzsharp/8.3.1.3/harfbuzzsharp.8.3.1.3.nupkg"
-        }
-      ]
-    },
-    {
       "package": "MicroCom.Runtime",
       "version": "0.11.6",
       "sha256": "453af6d34477b19bb2c62d17436e68c76a75915b7947509b1ff601b36d7e78d8",
@@ -335,6 +335,18 @@
           "path": "Microsoft.NETCore.App.Runtime.linux-x64/10.0.15/LICENSE.TXT",
           "sha256": "cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310",
           "source": "https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.linux-x64/10.0.15/microsoft.netcore.app.runtime.linux-x64.10.0.15.nupkg"
+        }
+      ]
+    },
+    {
+      "package": "SkiaSharp",
+      "version": "3.119.4",
+      "sha256": "e32a449d31945c0b9d169eb5bc676e1e3f589aab69888e49d703fdc1c384c176",
+      "files": [
+        {
+          "path": "SkiaSharp/3.119.4/LICENSE.txt",
+          "sha256": "89101e35a8c66fd4d6dffc1763259161d35cb564c169714ec227a768c89f2938",
+          "source": "https://api.nuget.org/v3-flatcontainer/skiasharp/3.119.4/skiasharp.3.119.4.nupkg"
         }
       ]
     },
@@ -403,18 +415,6 @@
           "path": "SkiaSharp.NativeAssets.macOS/3.119.4/LICENSE.txt",
           "sha256": "89101e35a8c66fd4d6dffc1763259161d35cb564c169714ec227a768c89f2938",
           "source": "https://api.nuget.org/v3-flatcontainer/skiasharp.nativeassets.macos/3.119.4/skiasharp.nativeassets.macos.3.119.4.nupkg"
-        }
-      ]
-    },
-    {
-      "package": "SkiaSharp",
-      "version": "3.119.4",
-      "sha256": "e32a449d31945c0b9d169eb5bc676e1e3f589aab69888e49d703fdc1c384c176",
-      "files": [
-        {
-          "path": "SkiaSharp/3.119.4/LICENSE.txt",
-          "sha256": "89101e35a8c66fd4d6dffc1763259161d35cb564c169714ec227a768c89f2938",
-          "source": "https://api.nuget.org/v3-flatcontainer/skiasharp/3.119.4/skiasharp.3.119.4.nupkg"
         }
       ]
     },

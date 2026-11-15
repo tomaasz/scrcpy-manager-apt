@@ -13,6 +13,10 @@ lub Edge. W WSL możesz otworzyć go w przeglądarce Windows. Nie potrzebujesz W
 X11 ani pulpitu Linux. Terminal pozostaje otwarty podczas pracy; Ctrl+C kończy
 serwer i sesję telefonu. Opcjonalnie zmień port: `scrcpy-manager --web --port=17832`.
 Link daje dostęp do telefonu — zachowaj go dla siebie. Jest jednorazowy.
+Jeżeli port jest zajęty, panel może już działać w innym terminalu. Zakończ go
+tam przez Ctrl+C lub uruchom nowy panel na innym porcie:
+`scrcpy-manager --web --port=17832`. Po aktualizacji zamknij stary panel i uruchom
+go ponownie, aby korzystać z nowej wersji.
 Po wylogowaniu lub po 8 godzinach uruchom serwer ponownie, aby dostać nowy link.
 Panel działa tylko na tym komputerze. Zdalne SSH wymaga przekierowania portu:
 
@@ -43,6 +47,9 @@ Run `scrcpy-manager --web` without sudo and open the complete one-time URL print
 in the terminal in current Chrome or Edge. No Linux display or WSLg is needed;
 Windows browsers can access the WSL localhost port. Keep the process running;
 Ctrl+C stops it. Access expires after 8 hours; restart after logout for a new link.
+If the port is busy, stop the earlier panel with Ctrl+C in its terminal or use
+another port: `scrcpy-manager --web --port=17832`. Restart the panel after an
+upgrade to use the newly installed version.
 The server listens on loopback only. For SSH use local port forwarding as above.
 ADB must reach the phone from the machine running Manager; WSL USB forwarding is
 separate from browser access. Web Preview hardware video/input/audio validation
