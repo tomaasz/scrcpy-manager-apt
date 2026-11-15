@@ -4,10 +4,10 @@ Suite: noble
 Codename: noble
 Architectures: amd64
 Components: main
-Date: Sat, 14 Nov 2026 23:31:41 GMT
-Valid-Until: Mon, 14 Dec 2026 23:31:41 GMT
+Date: Sun, 15 Nov 2026 08:49:16 GMT
+Valid-Until: Tue, 15 Dec 2026 08:49:16 GMT
 Acquire-By-Hash: yes
 Description: scrcpy Manager Linux Preview packages
 SHA256:
- b6a20910b79c9c70dfa66a45fcc2910ab36bee606cc65989832dc3ed2dd7b938 3281 main/binary-amd64/Packages
- 77abec7a4d7bf83c175f638a1c6dafd980468f0ced1772d9bc90e084e2588a88 1409 main/binary-amd64/Packages.gz
+ 38eae474fa10c2cee2a31aea1d76daf9817ad8ae6b54474998d4ec0bfe8011ca 4307 main/binary-amd64/Packages
+ 3b9da40e8a7695e7684d3c6229e07487b6f2aeec24b3a8d5899eeee1cae62b25 1619 main/binary-amd64/Packages.gz

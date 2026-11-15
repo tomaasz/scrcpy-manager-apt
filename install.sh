@@ -43,13 +43,8 @@ SOURCES
 install -m 644 "$temporary/scrcpy-manager.sources" /etc/apt/sources.list.d/scrcpy-manager.sources
 apt-get update
 apt-get install -y scrcpy-manager
-if [ -n "${DISPLAY:-}" ]; then
- printf '%s\n' 'Gotowe. Otwórz scrcpy Manager z menu aplikacji. / Done. Open scrcpy Manager from the applications menu.'
-else
- printf '%s\n' 'Zainstalowano. Do otwarcia programu potrzebny jest dostęp do ekranu.' \
-  'Linux: uruchom z pulpitu. WSL: włącz WSLg albo użyj wersji Windows.' \
-  'Linux bez ekranu: potrzebny jest zdalny pulpit; sam terminal nie wyświetli okna.' \
-  'Installed. Open from a Linux desktop, enable WSLg, or use the Windows version.' \
-  'A headless Linux machine needs a remote desktop to display the window.' \
-  'Pomoc / Help: https://github.com/tomaasz/scrcpy-manager-apt/blob/main/GUI.md'
-fi
+printf '%s\n' 'Gotowe. Menu aplikacji: scrcpy Manager. Bez pulpitu: scrcpy-manager --web (bez sudo).' \
+ 'Otwórz pełny link z terminala w Chrome lub Edge. WSL: także w przeglądarce Windows.' \
+ 'Installed. Use the applications menu, or run scrcpy-manager --web without sudo.' \
+ 'Open its full login link in Chrome or Edge. WSLg is not required for web mode.' \
+ 'Pomoc / Help: https://github.com/tomaasz/scrcpy-manager-apt/blob/main/GUI.md'

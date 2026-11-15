@@ -1,10 +1,10 @@
 # scrcpy Manager — Linux Preview
 
-Ubuntu **24.04** / Debian **13**, komputery **x64 (amd64)**, pulpit X11 lub XWayland.
+Ubuntu **24.04** / Debian **13**, komputery **x64 (amd64)**.
 
-**Do używania potrzebny jest dostęp do ekranu.** Na WSL bez WSLg albo Linuksie
-bez obsługi okien sama instalacja nie wystarczy. [Wybierz sposób uruchomienia](GUI.md).
-**A working display is required.** See [desktop, WSL and headless guidance](GUI.md).
+Z pulpitem: otwórz program z menu. **Bez pulpitu lub WSLg: `scrcpy-manager --web`**.
+Otwórz pełny jednorazowy link z terminala w Chrome lub Edge.
+[Instrukcja / Desktop, WSL and headless guide](GUI.md).
 
 ## Instalacja / Installation
 
@@ -16,12 +16,12 @@ curl -fsSL https://tomaasz.github.io/scrcpy-manager-apt/install.sh | sudo sh
 
 Jeśli brakuje polecenia curl: `sudo apt install curl`.
 Instalator dodaje podpisane repozytorium, instaluje program, ADB i scrcpy.
-Potem otwórz **scrcpy Manager** z menu aplikacji. Program uruchamia się bez terminala.
+Potem otwórz **scrcpy Manager** z menu aplikacji albo wpisz `scrcpy-manager --web`.
 Nie uruchamiaj aplikacji przez sudo. W telefonie włącz debugowanie USB i zaakceptuj
 zgodę na połączenie. Po instalacji reguł USB może być potrzebne ponowne podłączenie kabla.
 
 The installer adds a signed repository and installs the app, ADB and scrcpy.
-Open **scrcpy Manager** from your applications menu afterwards. Run the app as your
+Open **scrcpy Manager** from the applications menu, or run `scrcpy-manager --web`. Run the app as your
 normal user. Enable USB debugging on Android and accept the connection prompt.
 You may need to reconnect the USB cable after installing device rules.
 
@@ -72,7 +72,7 @@ installer/instructions update. Do not disable signature or expiry checks.
 
 ## Zawartość / Contents
 
-- `scrcpy-manager` **0.7.16-2**: Linux Preview, z dołączonym .NET i czytelną pomocą przy braku ekranu.
+- `scrcpy-manager` **0.7.17-1**: Linux + Web Preview, z dołączonym .NET i panelem bez pulpitu.
 - `scrcpy` **5.0.1-1sm1**: klient i zgodny serwer Android 5.0.1; prywatne SDL **3.4.18**.
 - FFmpeg i pozostałe biblioteki pochodzą z systemu. Nie dodajemy statycznego FFmpeg.
 - Licencje Managera i zależności: `/opt/scrcpy-manager/licenses/`,
@@ -98,3 +98,9 @@ repository schedule active. Only that separate job has repository write access;
 it does not receive the signing key. The publishing job has read access and the
 signing secret. The maintainer must still monitor the daily workflow and signed
 `Valid-Until` dates and re-enable scheduling if GitHub disables it.
+
+## Bez pulpitu / Headless
+
+Uruchom / Run `scrcpy-manager --web` bez sudo / without sudo. Otwórz pełny link / Open the full login URL in Chrome or Edge. [Instrukcja / Guide](GUI.md).
+
+Web Preview: testy z materiałem testowym przeszły; pełny test z fizycznym telefonem pozostaje do wykonania. / Fixture-based checks passed; physical phone video/control/audio validation is pending.

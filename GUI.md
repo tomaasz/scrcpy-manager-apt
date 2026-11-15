@@ -1,52 +1,50 @@
-# Jak otworzyć program / Opening the application
+# scrcpy Manager: okno lub przeglądarka
 
-scrcpy Manager jest aplikacją z oknem. Można go zainstalować na Linuksie bez
-pulpitu, ale do używania trzeba zapewnić miejsce do wyświetlania okien.
-Instalator APT instaluje program i narzędzia do telefonu. Nie instaluje pulpitu
-ani zdalnego dostępu. Nie trzeba mieć całego pulpitu, ale potrzebne jest działające
-X11 lub XWayland. Ta wersja nie ma panelu w przeglądarce ani trybu obsługi w terminalu.
+## Linux bez pulpitu i WSL
+
+Od wersji 0.7.17 można uruchomić lokalny panel **Web Preview**:
+
+```sh
+scrcpy-manager --web
+```
+
+Nie używaj sudo. Otwórz **pełny link pokazany w terminalu** w aktualnym Chrome
+lub Edge. W WSL możesz otworzyć go w przeglądarce Windows. Nie potrzebujesz WSLg,
+X11 ani pulpitu Linux. Terminal pozostaje otwarty podczas pracy; Ctrl+C kończy
+serwer i sesję telefonu. Opcjonalnie zmień port: `scrcpy-manager --web --port=17832`.
+Link daje dostęp do telefonu — zachowaj go dla siebie. Jest jednorazowy.
+Po wylogowaniu lub po 8 godzinach uruchom serwer ponownie, aby dostać nowy link.
+Panel działa tylko na tym komputerze. Zdalne SSH wymaga przekierowania portu:
+
+```sh
+ssh -L 17831:127.0.0.1:17831 użytkownik@komputer
+# Na zdalnym komputerze:
+scrcpy-manager --web
+```
+
+Następnie otwórz pokazany link lokalnie. Nie otwieraj portu w routerze.
+Telefon musi być widoczny dla ADB **na komputerze z uruchomionym Managerem**.
+W WSL USB wymaga osobnego udostępnienia urządzenia; alternatywą jest debugowanie Wi-Fi.
+Panel ma listę telefonów, parowanie Wi-Fi, zapisane aplikacje, obraz, sterowanie
+i opcjonalny dźwięk. Dźwięk wymaga wsparcia telefonu i przeglądarki.
+Ustawienia okien, UHID i specjalne sterowanie myszą RDP pozostają w wersji desktopowej.
+Web Preview przeszedł testy automatyczne i przeglądarkowe z materiałem testowym;
+pełny test obrazu, sterowania i dźwięku na fizycznym telefonie pozostaje do wykonania.
 
 ## Linux z pulpitem
 
-Otwórz **scrcpy Manager** z menu aplikacji. Możesz też wpisać w terminalu
-otwartym na tym pulpicie `scrcpy-manager` — bez sudo.
-
-Jeżeli okno się nie otwiera, sprawdź, czy inne aplikacje z oknami działają w tej
-samej sesji. Na pulpicie Wayland potrzebny jest też działający XWayland.
-Nie ustawiaj `DISPLAY=:0` na ślepo: to nie tworzy ekranu ani dostępu do niego.
-
-## WSL na komputerze z Windows
-
-Najprościej uruchomić wersję Windows bezpośrednio w Windows. Jeżeli chcesz
-używać wersji Linux, WSL musi mieć działające WSLg lub inne poprawnie skonfigurowane
-wyświetlanie okien. Samo zainstalowanie Debiana w WSL nie gwarantuje, że jest dostępne.
-
-Konfiguracja WSLg: [oficjalna instrukcja Microsoft](https://learn.microsoft.com/windows/wsl/tutorials/gui-apps).
-Aktualizowanie i restartowanie WSL może zatrzymać inne uruchomione w nim programy;
-zapisz wcześniej pracę. Po konfiguracji otwórz nową sesję WSL i sprawdź inną prostą
-aplikację z oknem. Dopiero potem uruchom `scrcpy-manager`.
-Wyświetlanie okien i dostęp do telefonu przez USB to oddzielne sprawy — w WSL
-telefon może wymagać dodatkowego udostępnienia USB albo połączenia sieciowego.
-
-## Linux bez ekranu albo zwykłe SSH
-
-Jeżeli komputer nie ma obsługi okien, użyj zdalnego pulpitu z innego komputera
-albo uruchom Manager na komputerze z ekranem i dostępem do telefonu.
-Instalacja zdalnego pulpitu zależy od systemu i zasad sieci; nie dodajemy go
-automatycznie. Okno Managera i okna telefonu muszą być dostępne w tej sesji.
-Samo SSH bez przekazywania okien nie wystarczy. Wirtualny ekran Xvfb służący do
-testów również nie daje użytkownikowi widocznego okna.
+Otwórz **scrcpy Manager** z menu lub wpisz `scrcpy-manager` bez sudo.
+Tryb okienkowy wymaga X11 lub XWayland. Nie ustawiaj DISPLAY na ślepo.
+Możesz też używać panelu przez `scrcpy-manager --web`.
 
 ## English
 
-Manager is a graphical application. A full desktop is optional, but a working
-X11/XWayland display is required. APT does not install a desktop or remote access.
-There is currently no browser UI or terminal management mode.
-
-- **Linux desktop:** open the app from the menu or run `scrcpy-manager` from that
-  desktop's terminal, without sudo. Wayland desktops also need working XWayland.
-- **WSL:** use the Windows edition directly, or configure WSLg using Microsoft's
-  guide above. Display support and Android USB access are separate requirements.
-- **Headless/SSH:** connect through a properly configured remote desktop or use
-  a computer with a display and phone access. Plain SSH and Xvfb alone do not
-  provide a visible window. Do not set DISPLAY blindly or disable X server access controls.
+Run `scrcpy-manager --web` without sudo and open the complete one-time URL printed
+in the terminal in current Chrome or Edge. No Linux display or WSLg is needed;
+Windows browsers can access the WSL localhost port. Keep the process running;
+Ctrl+C stops it. Access expires after 8 hours; restart after logout for a new link.
+The server listens on loopback only. For SSH use local port forwarding as above.
+ADB must reach the phone from the machine running Manager; WSL USB forwarding is
+separate from browser access. Web Preview hardware video/input/audio validation
+on a physical phone is still pending. Desktop-only window/UHID/RDP options remain
+available in the graphical edition.

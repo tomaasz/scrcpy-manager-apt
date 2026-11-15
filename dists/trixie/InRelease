@@ -7,17 +7,17 @@ Suite: trixie
 Codename: trixie
 Architectures: amd64
 Components: main
-Date: Sat, 14 Nov 2026 23:31:41 GMT
-Valid-Until: Mon, 14 Dec 2026 23:31:41 GMT
+Date: Sun, 15 Nov 2026 08:49:16 GMT
+Valid-Until: Tue, 15 Dec 2026 08:49:16 GMT
 Acquire-By-Hash: yes
 Description: scrcpy Manager Linux Preview packages
 SHA256:
- 5740c0ea062a0e1f03a0c913d62d156cda0e63a6929f0d3e2b5bf36ead96c79d 3297 main/binary-amd64/Packages
- 3c35490d2b00d080d6f1b56a04d8a4c810ece7ca85dae882a97fb134b62a8fb8 1412 main/binary-amd64/Packages.gz
+ 9584b18e90aa2466c6908997a9359804d596015d3c0c059a82f6c62fc7151c13 4325 main/binary-amd64/Packages
+ f59e19e328186b64d174fd4c6090060b475cb290a3463ecdd8a322385af3d84d 1625 main/binary-amd64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYIAB0WIQTP8YRxi0cPOJMZqr9rXdVYmKmjQQUCavjvXgAKCRBrXdVYmKmj
-QeqgAP9WwE8tTU2/MaADBs0PNm0a9FswfaaHbg2ZB7WZB9rccAEA5keURp0eYsfm
-VZrbRooCjDUP/L+FndD5amaa+ckzQAg=
-=xKcQ
+iHUEARYIAB0WIQTP8YRxi0cPOJMZqr9rXdVYmKmjQQUCavlyDgAKCRBrXdVYmKmj
+QTk3AQC02fvs2xCoLqMI/UiG26lblc4t9WDyNBdSdbymmFWpygD/aj1nsTPNBzeO
+aoYL8FAKv6M+rAz4MEVg/1QefPkQpg0=
+=V0XH
 -----END PGP SIGNATURE-----
