@@ -25,10 +25,15 @@ Open **scrcpy Manager** from the applications menu, or run `scrcpy-manager --web
 normal user. Enable USB debugging on Android and accept the connection prompt.
 You may need to reconnect the USB cable after installing device rules.
 
-## Zmiany 0.7.17-2 / Changes
+## Nowości 0.7.18 / Changes
 
-Opcja dźwięku jest zablokowana podczas łączenia i sesji. Zakończ sesję, aby ją zmienić.
-The audio option is locked while connecting and during a session. Stop the session to change it.
+Linux i Web: ikony z telefonu, kopiowanie zapisanych aplikacji i zmiana kolejności.
+Linux: obrót, bufor obrazu oraz kodek i jakość dźwięku. Web: dźwięk ustawiany osobno
+dla aplikacji. Pobranie ikony wymaga gotowego telefonu i kliknięcia „Ikona z telefonu”.
+
+Linux and Web: phone icons, duplicate saved apps and reorder the list. Linux adds
+rotation, video buffer and audio quality controls. Web adds per-app audio choices.
+Select a ready phone and click “Icon from phone” to retrieve an icon.
 
 ## Aktualizacje / Updates
 
@@ -77,7 +82,7 @@ installer/instructions update. Do not disable signature or expiry checks.
 
 ## Zawartość / Contents
 
-- `scrcpy-manager` **0.7.17-2**: Linux + Web Preview, z dołączonym .NET i panelem bez pulpitu.
+- `scrcpy-manager` **0.7.18-1**: Linux + Web Preview, z dołączonym .NET i panelem bez pulpitu.
 - `scrcpy` **5.0.1-1sm1**: klient i zgodny serwer Android 5.0.1; prywatne SDL **3.4.18**.
 - FFmpeg i pozostałe biblioteki pochodzą z systemu. Nie dodajemy statycznego FFmpeg.
 - Licencje Managera i zależności: `/opt/scrcpy-manager/licenses/`,
@@ -91,8 +96,11 @@ licenses included in the packages continue to apply. The root MIT license covers
 the distribution scripts; third-party code retains its original licenses.
 
 Linux remains a **Preview**. No ARM or native Wayland support is claimed.
-Installation and window startup are tested in disposable Ubuntu/Debian containers;
-USB video, navigation and audio were tested on Pixel 8 Pro through WSL. Other phones and Wi-Fi streaming still need hardware testing.
+Installation and window startup are tested in disposable Ubuntu/Debian containers.
+Pixel 8 Pro video, navigation and audio transfer through WSL were confirmed in an
+earlier 0.7.17 session; they were not re-tested as a full streaming session for
+0.7.18. The 0.7.18 phone-icon retrieval and Web API were tested separately on
+that phone with `com.android.settings`. Other devices still need hardware testing.
 
 This repository provides its own `scrcpy` package, which upgrades Ubuntu's older
 package and replaces its matching `scrcpy-server`. Both suites are built separately
