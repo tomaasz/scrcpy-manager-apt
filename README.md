@@ -25,6 +25,11 @@ Open **scrcpy Manager** from the applications menu, or run `scrcpy-manager --web
 normal user. Enable USB debugging on Android and accept the connection prompt.
 You may need to reconnect the USB cable after installing device rules.
 
+## Zmiany 0.7.17-2 / Changes
+
+Opcja dźwięku jest zablokowana podczas łączenia i sesji. Zakończ sesję, aby ją zmienić.
+The audio option is locked while connecting and during a session. Stop the session to change it.
+
 ## Aktualizacje / Updates
 
 Aktualizacje pojawią się w systemowym menedżerze aktualizacji. Możesz też wpisać:
@@ -72,7 +77,7 @@ installer/instructions update. Do not disable signature or expiry checks.
 
 ## Zawartość / Contents
 
-- `scrcpy-manager` **0.7.17-1**: Linux + Web Preview, z dołączonym .NET i panelem bez pulpitu.
+- `scrcpy-manager` **0.7.17-2**: Linux + Web Preview, z dołączonym .NET i panelem bez pulpitu.
 - `scrcpy` **5.0.1-1sm1**: klient i zgodny serwer Android 5.0.1; prywatne SDL **3.4.18**.
 - FFmpeg i pozostałe biblioteki pochodzą z systemu. Nie dodajemy statycznego FFmpeg.
 - Licencje Managera i zależności: `/opt/scrcpy-manager/licenses/`,
@@ -87,7 +92,7 @@ the distribution scripts; third-party code retains its original licenses.
 
 Linux remains a **Preview**. No ARM or native Wayland support is claimed.
 Installation and window startup are tested in disposable Ubuntu/Debian containers;
-physical phone USB/Wi-Fi/streaming tests have not been completed.
+USB video, navigation and audio were tested on Pixel 8 Pro through WSL. Other phones and Wi-Fi streaming still need hardware testing.
 
 This repository provides its own `scrcpy` package, which upgrades Ubuntu's older
 package and replaces its matching `scrcpy-server`. Both suites are built separately
