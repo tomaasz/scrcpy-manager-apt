@@ -31,6 +31,8 @@ Telefon musi być widoczny dla ADB **na komputerze z uruchomionym Managerem**.
 W WSL USB wymaga osobnego udostępnienia urządzenia; alternatywą jest debugowanie Wi-Fi.
 Panel ma listę telefonów, parowanie Wi-Fi, zapisane aplikacje, obraz, sterowanie
 i opcjonalny dźwięk. Dźwięk wymaga wsparcia telefonu i przeglądarki.
+Od wersji 0.7.19 przycisk **Dodaj aplikacje z telefonu** uzupełnia listę skrótami
+do znanych aplikacji z wybranego telefonu, zachowując własne wpisy i ustawienia.
 Ustawienia okien, UHID i specjalne sterowanie myszą RDP pozostają w wersji desktopowej.
 Web Preview przeszedł testy automatyczne i przeglądarkowe z materiałem testowym;
 pełny test obrazu, sterowania i dźwięku na fizycznym telefonie pozostaje do wykonania.

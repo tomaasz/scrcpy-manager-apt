@@ -25,7 +25,17 @@ Open **scrcpy Manager** from the applications menu, or run `scrcpy-manager --web
 normal user. Enable USB debugging on Android and accept the connection prompt.
 You may need to reconnect the USB cable after installing device rules.
 
-## Nowości 0.7.18 / Changes
+## Nowości 0.7.19 / Changes
+
+W Linux i Web wybierz gotowy telefon i kliknij **Dodaj aplikacje z telefonu**.
+Manager doda skróty do znanych aplikacji, które są na telefonie. Zachowa własne
+wpisy i ustawienia; ponowne kliknięcie nie tworzy duplikatów.
+
+In Linux and Web, select a ready phone and click **Add apps from phone**.
+Manager adds shortcuts for known apps installed on that phone. Existing entries
+and settings are preserved; repeating the action does not create duplicates.
+
+## Poprzednie zmiany 0.7.18 / Previous changes
 
 Poprawka pakietu **0.7.18-2**: zajęty port panelu Web wyświetla krótką instrukcję
 zamiast stosu błędów. Po aktualizacji uruchom panel ponownie.
@@ -88,7 +98,7 @@ installer/instructions update. Do not disable signature or expiry checks.
 
 ## Zawartość / Contents
 
-- `scrcpy-manager` **0.7.18-2**: Linux + Web Preview, z dołączonym .NET i panelem bez pulpitu.
+- `scrcpy-manager` **0.7.19-1**: Linux + Web Preview, z dołączonym .NET i panelem bez pulpitu.
 - `scrcpy` **5.0.1-1sm1**: klient i zgodny serwer Android 5.0.1; prywatne SDL **3.4.18**.
 - FFmpeg i pozostałe biblioteki pochodzą z systemu. Nie dodajemy statycznego FFmpeg.
 - Licencje Managera i zależności: `/opt/scrcpy-manager/licenses/`,
